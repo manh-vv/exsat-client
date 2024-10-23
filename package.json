@@ -4,6 +4,7 @@
   "author": "RobinHolmes <robin@exsat.org>",
   "license": "MIT",
   "scripts": {
+    "start-bot": "ts-node src/commander/bot.ts",
     "start-commander": "ts-node src/commander/index.ts",
     "start-synchronizer": "ts-node src/synchronizer/index.ts",
     "start-validator": "ts-node src/validator/index.ts",
